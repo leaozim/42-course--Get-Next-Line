@@ -6,7 +6,7 @@
 /*   By: lade-lim <lade-lim@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/05 17:12:42 by lade-lim          #+#    #+#             */
-/*   Updated: 2022/07/07 16:59:57 by lade-lim         ###   ########.fr       */
+/*   Updated: 2022/07/07 17:56:27 by lade-lim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,6 @@ int	main(void)
 		printf("%s", gnl);
 		free(gnl);
 	}
-	// close(fd);
+	close(fd);
 	return (0);
 }
