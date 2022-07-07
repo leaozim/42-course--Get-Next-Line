@@ -22,6 +22,13 @@ cc tests/main.c -g -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_n
 ```
 
 **GNL Bonus Part**
+
+In the Bonus part, get_next_line() manages multiple file descriptors at the same time. In it you will be able to read a different fd per function call without losing the thread reading each file descriptor or returning a line from another fd.
+Example: you will read from fd 1, then fd 2, then 1, then again fd2... without losing any information until you reach the end of the files.
+
+ :point_right: Locate in the **Get_Next_Line** folder.
+
+**GNL Bonus Part**
 ```bash
 gcc tests/main_bonus.c -g -Wall -Wextra -Werror -D BUFFER_SIZE=1 get_next_line_bonus.c get_next_line_utils_bonus.c
 
