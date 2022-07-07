@@ -34,7 +34,7 @@ gcc tests/main_bonus.c -g -Wall -Wextra -Werror -D BUFFER_SIZE=1 get_next_line_b
 
 ./a.out
 ```
-**
+
 ### Functions Used
 
 **External Functions**
