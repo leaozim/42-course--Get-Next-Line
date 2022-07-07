@@ -34,3 +34,23 @@ gcc tests/main_bonus.c -g -Wall -Wextra -Werror -D BUFFER_SIZE=1 get_next_line_b
 
 ./a.out
 ```
+**
+### Functions Used
+
+**External Functions**
+
+ | Function | Description         |
+ |-----------|----------------------|
+ |  read() | A line has been read |
+ |  malloc() | EOF has been reached |
+ |  free() | An error happened |
+
+**Utility Functions - [Libft](https://github.com/leaozim/Libft)**
+
+ | Function | Description         |
+ |-----------|----------------------|
+ |  ft_strchr() | Finds the first occurrence of C (converted to a char) in the string pointed to by str. |
+ |  ft_strjoin() | Allocates with malloc and returns a new string, which is the result of the concatenation of 's1' and 's2'. |
+ |  ft_strdup() | Returns a pointer to a  new  string  which  is  a duplicate  of the string s. |
+ |  ft_substr() | Returns a substring of the string 's'. The substring starts at index 'start' and is of maximum length 'len'. |
+ |  ft_strlen() |  Calculates the length of the string s, excluding the terminating null byte ('\0') |
