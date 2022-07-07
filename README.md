@@ -45,7 +45,7 @@ gcc tests/main_bonus.c -g -Wall -Wextra -Werror -D BUFFER_SIZE=1 get_next_line_b
  |  malloc() | EOF has been reached |
  |  free() | An error happened |
 
-**Utility Functions - [Libft](https://github.com/leaozim/Libft)**
+**Utility Functions**
 
  | Function | Description         |
  |-----------|----------------------|
