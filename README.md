@@ -16,9 +16,7 @@ The program compile with the flag -D BUFFER_SIZE=xx. which will be used as the b
 
 **GNL with files**
 ```bash
-cc tests/main.c -g -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c
-
-./a.out 
+cc simple_tests/main.c -g -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c && ./a.out
 ```
 
 **GNL Bonus Part**
@@ -30,9 +28,7 @@ Example: you will read from fd 1, then fd 2, then 1, then again fd2... without l
 
 **GNL Bonus Part**
 ```bash
-gcc tests/main_bonus.c -g -Wall -Wextra -Werror -D BUFFER_SIZE=1 get_next_line_bonus.c get_next_line_utils_bonus.c
-
-./a.out
+ cc simple_tests/main_bonus.c -g -Wall -Wextra -Werror -D BUFFER_SIZE=1 get_next_line_bonus.c get_next_line_utils_bonus.c && ./a.out
 ```
 
 ### Functions Used
