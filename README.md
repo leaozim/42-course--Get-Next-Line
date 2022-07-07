@@ -1,6 +1,6 @@
 # Get Next Line (GNL)  
 
-The purpose of this project is to get you to code a function that creates a function that allows you to read a file line by line.
+The purpose of this project is to get you creates a function that allows you to read a file line by line.
 
 ## Function Prototype
 ```c
