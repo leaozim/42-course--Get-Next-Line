@@ -6,7 +6,7 @@
 /*   By: lade-lim <lade-lim@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/07 15:08:17 by lade-lim          #+#    #+#             */
-/*   Updated: 2022/07/07 16:59:27 by lade-lim         ###   ########.fr       */
+/*   Updated: 2022/07/08 03:01:23 by lade-lim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,8 @@ int	main(void)
 	int		fd2;
 	char	*gnl;
 
-	fd1 = open("fd1_moveis_coloniais_de_acaju", O_RDONLY);
-	fd2 = open("fd2_xodo", O_RDONLY);
+	fd1 = open("simple_tests/files/fd1_moveis_coloniais_de_acaju", O_RDONLY);
+	fd2 = open("simple_tests/files/fd2_xodo", O_RDONLY);
 	gnl = (char *)"initializing";
 	gnl = get_next_line(fd1);
 	printf("FD01 | First Line:\t%s\n", gnl);
